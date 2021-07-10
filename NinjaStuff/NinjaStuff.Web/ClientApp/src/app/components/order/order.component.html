@@ -1,0 +1,30 @@
+<h1 id="tableLabel">Pedidos</h1>
+
+<p>Lista de todos os Pedidos.</p>
+
+<a class="btn btn-primary" [routerLink]='["/new-order"]'>Novo pedido</a>
+
+<p class="mt-3" *ngIf="orders.length == 0"><em>Nenhum registro foi encontrado</em></p>
+<table class='table table-striped mt-3' aria-labelledby="tableLabel" *ngIf="orders.length > 0">
+    <thead>
+        <tr>
+            <th>Número</th>
+            <th>Data</th>
+            <th>Cliente</th>
+            <th>Valor</th>
+            <th>Desconto</th>
+            <th>Valor Total</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let order of orders">
+            <td>{{ order.Id }}</td>
+            <td>{{ order.Date }}</td>
+            <td>{{ order.CustomerEmail }}</td>
+            <td>{{ order.Price }}</td>
+            <td>{{ order.Discount }}</td>
+            <td>{{ order.TotalPrice }}</td>
+        </tr>
+    </tbody>
+</table>

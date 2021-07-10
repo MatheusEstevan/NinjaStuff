@@ -1,0 +1,12 @@
+<form [formGroup]="productForm">
+    <div class="form-group">
+        <input type="text" class="form-control" formControlName="description" placeholder="Descrição" [class.is-invalid]="productForm.get('description').invalid && productForm.get('description').touched">
+    </div>
+    <div class="form-group">
+        <input type="number" class="form-control" formControlName="price" placeholder="Preço" [class.is-invalid]="productForm.get('price').invalid && productForm.get('price').touched">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" formControlName="picture" placeholder="Link da Foto" [class.is-invalid]="productForm.get('picture').invalid && productForm.get('picture').touched">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="save();">Criar</button>
+</form>

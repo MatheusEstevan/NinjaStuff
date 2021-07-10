@@ -19,5 +19,13 @@ namespace NinjaStuff.Domain.Service
             customerRepository = this.repository;
         }
 
+        public override Customer Create(Customer entity)
+        {
+            if(customerRepository.List().Any(a => a.Email == entity.Email))
+            {
+                throw new Exception("Este cliente ja existe");
+            }
+            return base.Create(entity);
+        }
     }
 }

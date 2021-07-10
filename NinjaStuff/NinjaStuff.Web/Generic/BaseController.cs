@@ -23,13 +23,22 @@ namespace NinjaStuff.Web.Generic
         public virtual IActionResult Get() => Ok(service.List());
 
         //[HttpGet("{id}")]
-       
+
         //[ProducesResponseType(typeof(object), Status200OK)]
         //public virtual IActionResult Get(long key) => Ok(service.GetById(key));
 
         [HttpPost]
         [ProducesResponseType(typeof(object), Status200OK)]
-        public virtual IActionResult Post([FromBody] U data) => Ok(service.Create(data));
+        public virtual IActionResult Post([FromBody] U data) {
+            try
+            {
+                return Ok(service.Create(data));
+            }catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            
+        }
 
         [HttpPut]
         [ProducesResponseType(typeof(object), Status200OK)]

@@ -1,0 +1,12 @@
+<form [formGroup]="customerForm">
+    <div class="form-group">
+        <input type="text" class="form-control" formControlName="name" placeholder="Nome" [class.is-invalid]="customerForm.get('name').invalid && customerForm.get('name').touched">
+    </div>
+    <div class="form-group">
+        <input type="email" class="form-control" formControlName="email" placeholder="Email" [class.is-invalid]="customerForm.get('email').invalid && customerForm.get('email').touched">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" formControlName="village" [class.is-invalid]="customerForm.get('village').invalid && customerForm.get('village').touched" placeholder="Vila">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="save();">Criar</button>
+</form>

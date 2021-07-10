@@ -1,0 +1,24 @@
+<form [formGroup]="orderForm">
+    <div class="form-group">
+        <ng-multiselect-dropdown [class]="form-control" [placeholder]="'Cliente'" [data]="customers" formControlName="customer" [settings]="customerDropdownSettings">
+
+        </ng-multiselect-dropdown>
+    </div>
+    <div class="form-group">
+        <input type="number" class="form-control" formControlName="discount" placeholder="Desconto em %">
+    </div>
+
+    <div class="form-group">
+        <ng-multiselect-dropdown [class]="form-control" [placeholder]="'Produtos'" [data]="products" formControlName="products" [settings]="productsDropdownSettings">
+
+        </ng-multiselect-dropdown>
+    </div>
+    <div class="form-group">
+        <p class="text-right">Preço: </p>
+    </div>
+
+    <div class="form-group">
+        <p class="text-right">Preço Total: </p>
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="save();">Criar</button>
+</form>

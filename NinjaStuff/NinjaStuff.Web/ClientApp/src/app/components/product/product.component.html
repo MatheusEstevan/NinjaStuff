@@ -1,0 +1,25 @@
+<h1 id="tableLabel">Produtos</h1>
+
+<p>Lista de todos os Produtos.</p>
+
+<a class="btn btn-primary" [routerLink]='["/new-product"]'>Novo produto</a>
+
+<p class="mt-3" *ngIf="products.length == 0"><em>Nenhum registro foi encontrado</em></p>
+<table class='table table-striped mt-3' aria-labelledby="tableLabel" *ngIf="products.length > 0">
+    <thead>
+        <tr>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>Foto</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of products">
+            <td>{{ product.description }}</td>
+            <td>{{ product.price }}</td>
+            <td>{{ product.picture }}</td>
+
+        </tr>
+    </tbody>
+</table>

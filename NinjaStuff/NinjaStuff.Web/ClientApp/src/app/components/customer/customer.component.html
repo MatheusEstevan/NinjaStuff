@@ -1,0 +1,25 @@
+<h1 id="tableLabel">Clientes</h1>
+
+<p>Lista de todos os clientes.</p>
+
+
+<a class="btn btn-primary" [routerLink]='["/new-customer"]'>Novo cliente</a>
+<p class="mt-3" *ngIf="customers == 0"><em>Nenhum registro foi encontrado</em></p>
+<table class='table table-striped mt-3' aria-labelledby="tableLabel" *ngIf="customers.length > 0">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Aldeia</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let customer of customers">
+            <td>{{ customer.name }}</td>
+            <td>{{ customer.email }}</td>
+            <td>{{ customer.village }}</td>
+
+        </tr>
+    </tbody>
+</table>
