@@ -1,0 +1,8 @@
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Entities\bin\Debug\netcoreapp3.1\NinjaStuff.Entities.deps.json
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Entities\bin\Debug\netcoreapp3.1\NinjaStuff.Entities.dll
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Entities\bin\Debug\netcoreapp3.1\NinjaStuff.Entities.pdb
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Entities\obj\Debug\netcoreapp3.1\NinjaStuff.Entities.csprojAssemblyReference.cache
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Entities\obj\Debug\netcoreapp3.1\NinjaStuff.Entities.AssemblyInfoInputs.cache
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Entities\obj\Debug\netcoreapp3.1\NinjaStuff.Entities.AssemblyInfo.cs
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Entities\obj\Debug\netcoreapp3.1\NinjaStuff.Entities.dll
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Entities\obj\Debug\netcoreapp3.1\NinjaStuff.Entities.pdb

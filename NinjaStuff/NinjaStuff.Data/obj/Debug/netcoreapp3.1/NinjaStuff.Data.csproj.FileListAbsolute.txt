@@ -1,0 +1,13 @@
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\bin\Debug\netcoreapp3.1\NinjaStuff.Data.deps.json
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\bin\Debug\netcoreapp3.1\NinjaStuff.Data.runtimeconfig.json
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\bin\Debug\netcoreapp3.1\NinjaStuff.Data.runtimeconfig.dev.json
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\bin\Debug\netcoreapp3.1\NinjaStuff.Data.dll
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\bin\Debug\netcoreapp3.1\NinjaStuff.Data.pdb
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\bin\Debug\netcoreapp3.1\NinjaStuff.Entities.dll
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\bin\Debug\netcoreapp3.1\NinjaStuff.Entities.pdb
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\obj\Debug\netcoreapp3.1\NinjaStuff.Data.csprojAssemblyReference.cache
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\obj\Debug\netcoreapp3.1\NinjaStuff.Data.AssemblyInfoInputs.cache
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\obj\Debug\netcoreapp3.1\NinjaStuff.Data.AssemblyInfo.cs
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\obj\Debug\netcoreapp3.1\NinjaStuff.Data.csproj.CopyComplete
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\obj\Debug\netcoreapp3.1\NinjaStuff.Data.dll
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Data\obj\Debug\netcoreapp3.1\NinjaStuff.Data.pdb

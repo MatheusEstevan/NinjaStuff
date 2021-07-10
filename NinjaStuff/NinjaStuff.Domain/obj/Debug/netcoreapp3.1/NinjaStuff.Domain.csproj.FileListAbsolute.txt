@@ -1,0 +1,13 @@
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\obj\Debug\netcoreapp3.1\NinjaStuff.Domain.csprojAssemblyReference.cache
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\obj\Debug\netcoreapp3.1\NinjaStuff.Domain.AssemblyInfoInputs.cache
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\obj\Debug\netcoreapp3.1\NinjaStuff.Domain.AssemblyInfo.cs
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\bin\Debug\netcoreapp3.1\NinjaStuff.Domain.deps.json
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\bin\Debug\netcoreapp3.1\NinjaStuff.Domain.dll
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\bin\Debug\netcoreapp3.1\NinjaStuff.Domain.pdb
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\bin\Debug\netcoreapp3.1\NinjaStuff.Data.dll
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\bin\Debug\netcoreapp3.1\NinjaStuff.Entities.dll
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\bin\Debug\netcoreapp3.1\NinjaStuff.Data.pdb
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\bin\Debug\netcoreapp3.1\NinjaStuff.Entities.pdb
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\obj\Debug\netcoreapp3.1\NinjaStuff.Domain.csproj.CopyComplete
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\obj\Debug\netcoreapp3.1\NinjaStuff.Domain.dll
+D:\Matheus\NinjaStuff\NinjaStuff\NinjaStuff.Domain\obj\Debug\netcoreapp3.1\NinjaStuff.Domain.pdb
