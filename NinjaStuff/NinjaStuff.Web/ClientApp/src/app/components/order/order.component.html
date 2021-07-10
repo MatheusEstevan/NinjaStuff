@@ -19,12 +19,12 @@
     </thead>
     <tbody>
         <tr *ngFor="let order of orders">
-            <td>{{ order.Id }}</td>
-            <td>{{ order.Date }}</td>
-            <td>{{ order.CustomerEmail }}</td>
-            <td>{{ order.Price }}</td>
-            <td>{{ order.Discount }}</td>
-            <td>{{ order.TotalPrice }}</td>
+            <td>{{ order.id }}</td>
+            <td>{{ order.date | date: 'dd/MM/yyyy hh:mm'}}</td>
+            <td>{{ order.customerEmail }}</td>
+            <td>{{ order.price }}</td>
+            <td>{{ order.discount }}</td>
+            <td>{{ order.totalPrice }}</td>
         </tr>
     </tbody>
 </table>

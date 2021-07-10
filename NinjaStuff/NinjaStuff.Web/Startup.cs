@@ -22,11 +22,13 @@ namespace NinjaStuff.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddControllers().AddNewtonsoftJson(options =>
+                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+             );
             string connectionString = Configuration.GetConnectionString("ApplicationConnection");
             services.AddDbContext<NinjaStuffContext>(opt =>
-            
-              
+
+
                 opt.UseSqlServer(connectionString, connOptions =>
                 {
                     connOptions.EnableRetryOnFailure();

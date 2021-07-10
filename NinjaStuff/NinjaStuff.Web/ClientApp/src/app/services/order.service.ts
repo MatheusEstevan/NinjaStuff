@@ -19,8 +19,8 @@ export class OrderService {
   }
 
 
-  post(customer: any): Observable<any> {
-    return this.http.post(this._baseUrl + "api/order", customer, {});
+  post(order: any): Observable<any> {
+    return this.http.post(this._baseUrl + "api/order/New", order, {});
   }
 
 }

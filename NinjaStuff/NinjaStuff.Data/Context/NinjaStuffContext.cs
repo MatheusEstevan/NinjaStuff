@@ -24,8 +24,11 @@ namespace NinjaStuff.Data.Context
             ConfigureProduct(modelBuilder);
         }
 
-        public DbSet<Customer> Customer { get; set; }
+        public virtual DbSet<Customer> Customer { get; set; }
+        public virtual DbSet<Product> Product { get; set; }
 
+        public virtual DbSet<Order> Order { get; set; }
+        public virtual DbSet<OrderProduct> OrderProduct { get; set; }
         #region ModelBuilder
 
         private void ConfigureCustomer(ModelBuilder modelBuilder)
